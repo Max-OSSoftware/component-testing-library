@@ -1,7 +1,7 @@
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
-  name: "Next.js",
+  name: "Next.js Components",
   description:
     "Beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source.",
   mainNav: [
@@ -9,6 +9,14 @@ export const siteConfig = {
       title: "Home",
       href: "/",
     },
+    {
+      title: "Portfolio",
+      href: "/portfolio",
+    },
+    {
+      title: "About",
+      href: "/about",
+    }
   ],
   links: {
     twitter: "https://twitter.com/shadcn",
