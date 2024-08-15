@@ -11,7 +11,9 @@
     "preview": "next build && next start",
     "typecheck": "tsc --noEmit",
     "format:write": "prettier --write \"**/*.{ts,tsx,mdx}\" --cache",
-    "format:check": "prettier --check \"**/*.{ts,tsx,mdx}\" --cache"
+    "format:check": "prettier --check \"**/*.{ts,tsx,mdx}\" --cache",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
@@ -65,7 +67,16 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
+    "@chromatic-com/storybook": "^1.6.1",
     "@ianvs/prettier-plugin-sort-imports": "^3.7.2",
+    "@storybook/addon-essentials": "^8.2.9",
+    "@storybook/addon-interactions": "^8.2.9",
+    "@storybook/addon-links": "^8.2.9",
+    "@storybook/addon-onboarding": "^8.2.9",
+    "@storybook/blocks": "^8.2.9",
+    "@storybook/nextjs": "^8.2.9",
+    "@storybook/react": "^8.2.9",
+    "@storybook/test": "^8.2.9",
     "@types/node": "^17.0.45",
     "@types/react": "^18.2.67",
     "@types/react-dom": "^18.2.22",
@@ -75,9 +86,11 @@
     "eslint-config-next": "13.0.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-storybook": "^0.8.0",
     "eslint-plugin-tailwindcss": "3.13.1",
     "postcss": "^8.4.24",
     "prettier": "^2.8.8",
+    "storybook": "^8.2.9",
     "tailwindcss": "3.3.7",
     "typescript": "^5.5.3"
   }
