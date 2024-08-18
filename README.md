@@ -1,7 +1,9 @@
-### MyComponentTestingLibrary
+## Maxwell Dev
+
+### component-testing-library
 
 
-#### Installation Instructions
+####  Instructions
 
 #### Prerequisites
 Ensure you have the following installed on your system:
